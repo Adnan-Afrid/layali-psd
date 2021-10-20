@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Rubik:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+    color: rgb(255, 255, 255);
+}
+/* .navbar-light{
+    color: black;
+} */
+.nav-link :active{
+    color: rgb(220, 0, 155,1);
+}
+/* .collapse{
+    font-weight: bold;
+    font-size: 14px;
+} */
+/* .collapse ul span{
+padding-left: 21px;
+} */
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+.navbar-toggler{
+    /* position: relative; */
+    border: none;
+    height: 27px;
+    z-index: 999;
+    /* width: 37px; */
+    /* margin-left: auto; */
+    /* position: absolute;
+    right: 74px;
+    top: 2px; */
+}
+ nav .navbar-collapse{
+    position: absolute;
+    height: 100vh !important;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    display: block !important;
+    right: 0;
+    left: -100%;
+    z-index: 998;
+    transition: all 0.5s;
+}
+.navbar-collapse.show{
+    position: absolute;
+    left: 0;
+    transition: all 1.5s
+}
+header .navbar-toggler span{
+    background-color: black;
+    width: 35px;
+    display: block;
+    height: 3px;
+}
+header .navbar-toggler .top-bar{
+    position: absolute;
+    top: 26px;
+}
+header .navbar-toggler .bottom-bar{
+    position: absolute;
+    top: 40px;
+}
+ /* .top-bar{
+    position: absolute;
+    width: 24px;
+    background-color: black;
+    top: 13%;
+    bottom: 71%;
+    left: 17%;
+    border-radius: 4px
+}
+.mid-bar{
+    position: absolute;
+    width: 24px;
+    background-color: black;
+    top: 40%;
+    bottom: 43%;
+    left: 18%;
+    border-radius: 4px
+}
+.bottom-bar{
+    position: absolute;
+    width: 24px;
+    background-color: black;
+    top: 66%;
+    bottom: 18%;
+    left: 17%;
+    border-radius: 4px
+} */
+
+
+
+/* Heading Images Section Star CSS */
+section button{
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    padding: 6px 18px;
+}
+.heading-image1{
+    background-image: url('/images/taseen.png');
+    background-size: contain;
+    position: relative;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.heading-image2{
+    background-image: url('/images/sports-cloth.png');
+    background-size: contain;
+    position: relative;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.wrapper-heading-image2{
+    position: relative;
+}
+.heading-image2-contents{
+    color:rgb(220, 0, 155,1); 
+    position: absolute;
+    top: 120px ;
+    left: 20px;
+    text-align: center;
+}
+.heading-image2-contents h2{
+    font-family: 'Mr Dafoe';
+}
+.heading-image2-contents button{
+    border: none;
+    background-color: white;
+}
+
+
+.heading-image3{
+    background-image: url('/images/schoemen.png');
+    background-size: contain;
+    position: relative;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.heading-image4{
+    background-image: url('/images/taseen.png');
+    background-size: contain;
+    position: relative;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.heading-image4 p{
+font-family: 'Mr Dafoe', cursive;
+}
+/* .heading-image2-contents{
+    text-align: center;
+    width: 49%;
+    padding-top: 120px;
+    padding-right: 114px;
+}
+.heading-image2-contents h2{
+ color:rgb(220, 0, 155,1); 
+ font-family: 'Mr Dafoe'; 
+} */
+
+.heading2 h2{
+    font-family: 'Mr Dafoe', cursive; 
+    color: rgb(220, 0, 155,1); 
+}
+.heading2 p{
+    font-family: 'Rubik', sans-serif; 
+}
+.button-taseen{
+    position: relative;
+}
+.button-schoemen{
+    position: relative;
+}
+.heading-btn{
+        position: absolute;
+        top: 239px;
+        left: 142px;
+        color: black;
+        background-color: white;
+        border: none;
+        padding-top: 7px;
+        padding-left: 37px;
+        padding-right: 30px;
+        font-size: 12px;
+        padding-bottom: 4px;
+}   
+/* Heading Images Section End CSS */
+
+
+/* Cards Sections Start CSS */
+.card{
+    border: none !important;
+}
+.jerk-fluier-contents{
+    background-image: url('/images/durk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.dress-pom-contents{
+    background-image: url('/images/pom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.sale-button .btn-sale{
+    background-color: rgb(220, 0, 155, 1);
+    color: white;
+    border-radius: 0 3px 24px 0;
+    font-weight: bold;
+    border: none;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-top: 6px;
+}
+.tuniek-kiki-contents{
+    background-image: url('/images/kiki.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.jolie-dress-contents{
+    background-image: url('/images/dollie.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+
+.skirt-black-contents{
+    background-image: url('/images/skirt.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.wrapper-clothes-contents{
+display: flex;
+justify-content: space-between;
+}
+.dot-image-wrap img{
+    height: 2vh;
+}
+.rok-mali-contents{
+    background-image: url('/images/rokmail.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.twinset-kate-contents{
+    background-image: url('/images/roze.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.hot-button .btn-hot{
+    background-color: rgb(52, 184, 0, 1);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-top: 6px;
+    text-align: right;
+    padding-left: 15px;
+}
+.dress-rozera-contents{
+    background-image: url('/images/rozira.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.wrapper-clothes-contents {
+    padding-top: 17px;
+}
+.wrapper-clothes-contents p{
+    color: rgb(220, 0, 155,1);
+    font-weight: bold;
+    font-size: 12px;
+}
+.wrapper-clothes-contents h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Card section End CSS */
+
+/* Watch Collection divs section Start CSS */
+.watch-collection{
+background-color: black;
+    color: white;
+    height: 50vh;
+    text-align: center;
+    padding-top: 109px;
+}
+.watch-collection h2{
+font-weight: bold;
+}
+.sale-tot{
+    background-color: rgb(220, 0, 155,1);
+    color: white;
+    height: 50vh;
+    text-align: center;
+    padding-top: 109px;
+}
+.sale-tot h2{
+    font-weight: bold;
+}
+
+.heading3{
+margin-top: 45px;
+}
+.heading3 h2{
+    font-family: 'Mr Dafoe', cursive; 
+    color: rgb(17, 17, 17,1); 
+}
+.heading3 p{ 
+    color: rgb(222, 222, 222,222);
+}
+
+
+.litchi-jeans-contents{
+    background-image: url('/images/borek.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.slip-sandals-contents{
+    background-image: url('/images/came.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.sandal-sale-button .btn-sale-sandal{
+    background-color: rgb(220, 0, 155, 1);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-top: 6px;
+}
+.twinset-lyali-contents{
+    background-image: url('/images/layali.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+.split-legging-contents{
+    background-image: url('/images/wit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 336px;
+    background-position: center;
+}
+
+/* Watch Collection divs Start CSS */
+.watch-collection:hover{
+background-color: teal;
+color: tomato;
+}
+.sale-tot:hover{
+    background-color:brown;
+    color: white;
+}
+/* Watch Collection divs End CSS */
+
+
+
+/* icons hover with Start CSS */
+.hover-awesome-contents{
+    text-align: center;
+    margin-top: 42px;
+    padding-top: 53px;
+    padding-bottom: 75px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+.hover-awesome-contents:hover{
+    background-color: rgb(255, 255, 255 , 1);
+    box-shadow: 5px 5px 20px 10px #888888;
+}
+.hover-awesome-contents h2{
+font-size: 17px;
+    font-weight: bold;
+}
+.hover-awesome-contents p{
+    font-size: 13px;
+    color: rgb(149, 149, 149,1);
+}
+.hover-awesome-contents i{
+font-size: 23px;
+}
+/* icons hover with Start CSS */
+
+/* NIEUWS Brief Section Start CSS */
+.nieuws-brief .container-fluid{
+   padding: 20px 1px;
+}
+.nieuws-brief-contents h2{
+font-size: 21px;
+font-weight: bold;
+}
+.nieuws-brief-contents p{
+    font-size: 13px;
+    color: rgb(149, 149, 149,1);
+}
+.input-group-append .btn-subscribe{
+    background-color: rgb(220, 0, 155, 1);
+    color: white;
+    border: none;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-top: 6px;
+    padding-left: 17px;
+}
+
+.input-group {
+    margin-top: 17px;
+}
+/* NIEUWS Brief Section Start CSS */
+
+/* Footer Section Start Css */
+.footer-contents{
+    margin-top: 60px;
+}
+.footer-contents h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-contents p{
+    color: rgb(149, 149, 149,1);
+}
+.footer-contents p a{
+    color: rgb(222, 222, 222,1);
+    text-decoration: none;
+}
+
+/* Footer Section Start Css */
+
+
+
+
+/* Media Queries for d/f Screen Sizes Start */
+
+@media only screen and (max-width:1366px) {
+    .heading-image1{
+        background-size: cover;
+        position: relative;
+        height: 281px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image2{
+        background-size: cover;
+        position: relative;
+        height: 281px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image3{
+        background-size: cover;
+        position: relative;
+        height: 281px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image4{
+        background-size: cover;
+        position: relative;
+        height: 281px;
+        background-repeat: no-repeat;
+        background-position: center;;
+    }
+    .button-schoemen .heading-btn{
+        position: absolute;
+        top: 223px;
+        left: 151px;
+        color: black;
+        background-color: white;
+        border: none;
+        padding-top: 7px;
+        padding-left: 29px;
+        padding-right: 26px;
+        font-size: 12px;
+        padding-bottom: 4px;
+        font-weight: bold;
+    }  
+}
+
+@media only screen and (max-width:1024px) {
+    .heading-image1{
+        background-size: cover;
+        position: relative;
+        height: 240px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image2{
+        background-size: cover;
+        position: relative;
+        height: 240px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image3{
+        background-size: cover;
+        position: relative;
+        height: 240px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image4{
+        background-size: cover;
+        position: relative;
+        height: 240px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .button-schoemen .heading-btn{
+        position: absolute;
+    top: 187px;
+    left: 65px;
+    color: black;
+    background-color: white;
+    border: none;
+    padding-top: 7px;
+    padding-left: 29px;
+    padding-right: 26px;
+    font-size: 12px;
+    padding-bottom: 4px;
+    }
+    .watch-collection{
+        padding-top: 90px;
+    }
+    .sale-tot{
+        background-color: rgb(220, 0, 155,1);
+    color: white;
+    height: 50vh;
+    text-align: center;
+    padding-top: 75px;
+    }
+}
+
+@media (max-width:991px) {
+    .heading-image1{
+        background-size: cover;
+    position: relative;
+    height: 181px;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .heading-image2{
+        background-size: cover;
+        position: relative;
+        height: 179px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image3{
+        background-size: cover;
+    position: relative;
+    height: 178px;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .heading-image4{
+        background-size: cover;
+    position: relative;
+    height: 178px;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .button-schoemen .heading-btn{
+        position: absolute;
+    top: 142px;
+    left: 70px;
+    color: black;
+    background-color: white;
+    border: none;
+    padding-top: 6px;
+    padding-left: 25px;
+    padding-right: 26px;
+    font-size: 12px;
+    padding-bottom: 4px;
+    }
+    .jerk-fluier-contents{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 436px;
+        background-position: center;
+    }
+    .dress-pom-contents{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 435px;
+        background-position: center;
+    }
+    .tuniek-kiki-contents{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 435px;
+        background-position: center;
+    }
+    .jolie-dress-contents{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 435px;
+        background-position: center;
+    }
+    .skirt-black-contents{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 435px;
+        background-position: center;
+    }
+    .rok-mali-contents{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 435px;
+        background-position: center;
+    }
+    .twinset-kate-contents{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 435px;
+        background-position: center;
+    }
+    .dress-rozera-contents{
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 435px;
+        background-position: center;
+    }
+    .watch-collection{
+        background-color: black;
+        color: white;
+        height: 70vh;
+        text-align: center;
+        padding-top: 129px;
+    }
+    .sale-tot{
+        background-color: rgb(220, 0, 155,1);
+        color: white;
+        height: 70vh;
+        text-align: center;
+        padding-top: 120px;
+    }
+    .litchi-jeans-contents{
+        background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 435px;
+    background-position: center;
+    }
+    .slip-sandals-contents{
+        background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 435px;
+    background-position: center;
+    }
+    .twinset-lyali-contents{
+        background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 435px;
+    background-position: center;
+    }
+    .split-legging-contents{
+        background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 435px;
+    background-position: center;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .heading-image1{
+        background-size: cover;
+        position: relative;
+        height: 411px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image2{
+        background-size: cover;
+        position: relative;
+        height: 201px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image3{
+        background-size: cover;
+        position: relative;
+        height: 201px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image4{
+        background-size: cover;
+        position: relative;
+        height: 411px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .button-schoemen .heading-btn{
+    position: absolute;
+    top: 323px;
+    left: 237px;
+    color: black;
+    background-color: white;
+    border: none;
+    padding-top: 7px;
+    padding-left: 29px;
+    padding-right: 26px;
+    font-size: 12px;
+    padding-bottom: 4px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .heading-image1{
+        background-size: cover;
+        position: relative;
+        height: 411px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image2{
+        background-size: cover;
+        position: relative;
+        height: 201px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image3{
+        background-size: cover;
+        position: relative;
+        height: 201px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image4{
+        background-size: cover;
+        position: relative;
+        height: 411px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .button-schoemen .heading-btn{
+    position: absolute;
+    top: 323px;
+    left: 223px;
+    color: black;
+    background-color: white;
+    border: none;
+    padding-top: 7px;
+    padding-left: 29px;
+    padding-right: 26px;
+    font-size: 12px;
+    padding-bottom: 4px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .heading-image1{
+        background-size: cover;
+        position: relative;
+        height: 366px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image2{
+        background-size: cover;
+        position: relative;
+        height: 176px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image3{
+        background-size: cover;
+        position: relative;
+        height: 175px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .heading-image4{
+        background-size: cover;
+        position: relative;
+        height: 366px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .button-schoemen .heading-btn{
+        position: absolute;
+        top: 286px;
+        left: 200px;
+        color: black;
+        background-color: white;
+        border: none;
+        padding-top: 7px;
+        padding-left: 29px;
+        padding-right: 26px;
+        font-size: 12px;
+        padding-bottom: 4px;
+    }
+}
+/* Media Queries for d/f Screen Sizes End */
